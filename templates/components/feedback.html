@@ -1,0 +1,266 @@
+<!-- Feedback Examples -->
+<div class="space-y-8">
+    <!-- Alerts -->
+    <div class="bg-white dark:bg-gray-800 transition-colors duration-200 p-6 rounded-lg shadow-sm border dark:border-gray-700">
+        <h3 class="text-lg font-semibold mb-4">Alerts</h3>
+        <div class="space-y-4">
+            <!-- Success Alert -->
+            <div class="bg-green-50 border dark:border-gray-700 border-green-200 text-green-800 px-4 py-3 rounded-md flex items-center">
+                <i class="fas fa-check-circle mr-3"></i>
+                <div>
+                    <h4 class="font-medium">Success!</h4>
+                    <p class="text-sm">Your changes have been saved successfully.</p>
+                </div>
+                <button class="ml-auto text-green-600 dark:text-green-400 hover:text-green-800">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+
+            <!-- Info Alert -->
+            <div class="bg-blue-50 border dark:border-gray-700 border-blue-200 text-blue-800 px-4 py-3 rounded-md flex items-center">
+                <i class="fas fa-info-circle mr-3"></i>
+                <div>
+                    <h4 class="font-medium">Information</h4>
+                    <p class="text-sm">Please review your settings before proceeding.</p>
+                </div>
+                <button class="ml-auto text-blue-600 dark:text-blue-400 hover:text-blue-800">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+
+            <!-- Warning Alert -->
+            <div class="bg-yellow-50 border dark:border-gray-700 border-yellow-200 text-yellow-800 px-4 py-3 rounded-md flex items-center">
+                <i class="fas fa-exclamation-triangle mr-3"></i>
+                <div>
+                    <h4 class="font-medium">Warning</h4>
+                    <p class="text-sm">This action cannot be undone. Please proceed with caution.</p>
+                </div>
+                <button class="ml-auto text-yellow-600 dark:text-yellow-400 hover:text-yellow-800">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+
+            <!-- Error Alert -->
+            <div class="bg-red-50 border dark:border-gray-700 border-red-200 text-red-800 px-4 py-3 rounded-md flex items-center">
+                <i class="fas fa-exclamation-circle mr-3"></i>
+                <div>
+                    <h4 class="font-medium">Error</h4>
+                    <p class="text-sm">There was an error processing your request. Please try again.</p>
+                </div>
+                <button class="ml-auto text-red-600 dark:text-red-400 hover:text-red-800">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notifications -->
+    <div class="bg-white dark:bg-gray-800 transition-colors duration-200 p-6 rounded-lg shadow-sm border dark:border-gray-700">
+        <h3 class="text-lg font-semibold mb-4">Notifications</h3>
+        <div class="space-y-4">
+            <!-- Toast Notification -->
+            <div class="bg-white dark:bg-gray-800 transition-colors duration-200 border dark:border-gray-700 border-gray-200 dark:border-gray-600 rounded-lg shadow-lg p-4 max-w-sm">
+                <div class="flex items-start">
+                    <div class="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0">
+                        <i class="fas fa-check text-white text-sm"></i>
+                    </div>
+                    <div class="ml-3 flex-1">
+                        <h4 class="font-medium text-gray-900 dark:text-gray-100">Successfully saved!</h4>
+                        <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Your profile has been updated.</p>
+                    </div>
+                    <button class="ml-4 text-gray-400 hover:text-gray-600 dark:text-gray-400">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Notification with Action -->
+            <div class="bg-white dark:bg-gray-800 transition-colors duration-200 border dark:border-gray-700 border-gray-200 dark:border-gray-600 rounded-lg shadow-lg p-4 max-w-sm">
+                <div class="flex items-start">
+                    <div class="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center flex-shrink-0">
+                        <i class="fas fa-bell text-white text-sm"></i>
+                    </div>
+                    <div class="ml-3 flex-1">
+                        <h4 class="font-medium text-gray-900 dark:text-gray-100">New message received</h4>
+                        <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">You have 3 unread messages.</p>
+                        <div class="mt-3 flex space-x-2">
+                            <button class="text-sm bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">View</button>
+                            <button class="text-sm text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:text-gray-200">Dismiss</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Badges -->
+    <div class="bg-white dark:bg-gray-800 transition-colors duration-200 p-6 rounded-lg shadow-sm border dark:border-gray-700">
+        <h3 class="text-lg font-semibold mb-4">Badges</h3>
+        <div class="space-y-4">
+            <!-- Status Badges -->
+            <div>
+                <h4 class="text-md font-medium mb-2">Status Badges</h4>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-2 py-1 text-xs font-semibold bg-green-100 text-green-800 rounded-full">Active</span>
+                    <span class="px-2 py-1 text-xs font-semibold bg-yellow-100 text-yellow-800 rounded-full">Pending</span>
+                    <span class="px-2 py-1 text-xs font-semibold bg-red-100 text-red-800 rounded-full">Inactive</span>
+                    <span class="px-2 py-1 text-xs font-semibold bg-blue-100 text-blue-800 rounded-full">Draft</span>
+                    <span class="px-2 py-1 text-xs font-semibold bg-purple-100 text-purple-800 rounded-full">Premium</span>
+                </div>
+            </div>
+
+            <!-- Number Badges -->
+            <div>
+                <h4 class="text-md font-medium mb-2">Number Badges</h4>
+                <div class="flex items-center space-x-4">
+                    <div class="relative">
+                        <i class="fas fa-envelope text-gray-600 dark:text-gray-400 text-xl"></i>
+                        <span class="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">3</span>
+                    </div>
+                    <div class="relative">
+                        <i class="fas fa-bell text-gray-600 dark:text-gray-400 text-xl"></i>
+                        <span class="absolute -top-2 -right-2 bg-blue-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">7</span>
+                    </div>
+                    <div class="relative">
+                        <i class="fas fa-shopping-cart text-gray-600 dark:text-gray-400 text-xl"></i>
+                        <span class="absolute -top-2 -right-2 bg-green-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">12</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dot Badges -->
+            <div>
+                <h4 class="text-md font-medium mb-2">Dot Badges</h4>
+                <div class="flex items-center space-x-4">
+                    <div class="relative">
+                        <i class="fas fa-user text-gray-600 dark:text-gray-400 text-xl"></i>
+                        <span class="absolute -top-1 -right-1 bg-green-500 rounded-full h-3 w-3"></span>
+                    </div>
+                    <div class="relative">
+                        <i class="fas fa-message text-gray-600 dark:text-gray-400 text-xl"></i>
+                        <span class="absolute -top-1 -right-1 bg-red-500 rounded-full h-3 w-3"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Progress Indicators -->
+    <div class="bg-white dark:bg-gray-800 transition-colors duration-200 p-6 rounded-lg shadow-sm border dark:border-gray-700">
+        <h3 class="text-lg font-semibold mb-4">Progress Indicators</h3>
+        <div class="space-y-6">
+            <!-- Progress Bars -->
+            <div>
+                <h4 class="text-md font-medium mb-2">Progress Bars</h4>
+                <div class="space-y-3">
+                    <div>
+                        <div class="flex justify-between text-sm mb-1">
+                            <span>HTML</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 dark:bg-gray-600 rounded-full h-2">
+                            <div class="bg-blue-600 h-2 rounded-full" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex justify-between text-sm mb-1">
+                            <span>CSS</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 dark:bg-gray-600 rounded-full h-2">
+                            <div class="bg-green-600 h-2 rounded-full" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex justify-between text-sm mb-1">
+                            <span>JavaScript</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 dark:bg-gray-600 rounded-full h-2">
+                            <div class="bg-yellow-600 h-2 rounded-full" style="width: 60%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Circular Progress -->
+            <div>
+                <h4 class="text-md font-medium mb-2">Circular Progress</h4>
+                <div class="flex space-x-6">
+                    <div class="relative w-16 h-16">
+                        <svg class="w-16 h-16 transform -rotate-90" viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="40" stroke="currentColor" stroke-width="8" fill="transparent" class="text-gray-200"/>
+                            <circle cx="50" cy="50" r="40" stroke="currentColor" stroke-width="8" fill="transparent" 
+                                    stroke-dasharray="251.2" stroke-dashoffset="75.36" class="text-blue-600 dark:text-blue-400"/>
+                        </svg>
+                        <div class="absolute inset-0 flex items-center justify-center text-sm font-semibold">70%</div>
+                    </div>
+                    <div class="relative w-16 h-16">
+                        <svg class="w-16 h-16 transform -rotate-90" viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="40" stroke="currentColor" stroke-width="8" fill="transparent" class="text-gray-200"/>
+                            <circle cx="50" cy="50" r="40" stroke="currentColor" stroke-width="8" fill="transparent" 
+                                    stroke-dasharray="251.2" stroke-dashoffset="125.6" class="text-green-600 dark:text-green-400"/>
+                        </svg>
+                        <div class="absolute inset-0 flex items-center justify-center text-sm font-semibold">50%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading States -->
+    <div class="bg-white dark:bg-gray-800 transition-colors duration-200 p-6 rounded-lg shadow-sm border dark:border-gray-700">
+        <h3 class="text-lg font-semibold mb-4">Loading States</h3>
+        <div class="space-y-4">
+            <!-- Spinners -->
+            <div>
+                <h4 class="text-md font-medium mb-2">Spinners</h4>
+                <div class="flex items-center space-x-4">
+                    <div class="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600"></div>
+                    <div class="animate-spin rounded-full h-6 w-6 border-b-2 border-green-600"></div>
+                    <div class="animate-spin rounded-full h-4 w-4 border-b-2 border-red-600"></div>
+                </div>
+            </div>
+
+            <!-- Skeleton Loading -->
+            <div>
+                <h4 class="text-md font-medium mb-2">Skeleton Loading</h4>
+                <div class="space-y-3">
+                    <div class="animate-pulse flex space-x-4">
+                        <div class="rounded-full bg-gray-300 h-10 w-10"></div>
+                        <div class="flex-1 space-y-2 py-1">
+                            <div class="h-4 bg-gray-300 rounded w-3/4"></div>
+                            <div class="h-4 bg-gray-300 rounded w-1/2"></div>
+                        </div>
+                    </div>
+                    <div class="animate-pulse space-y-2">
+                        <div class="h-4 bg-gray-300 rounded"></div>
+                        <div class="h-4 bg-gray-300 rounded w-5/6"></div>
+                        <div class="h-4 bg-gray-300 rounded w-4/6"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tooltips -->
+    <div class="bg-white dark:bg-gray-800 transition-colors duration-200 p-6 rounded-lg shadow-sm border dark:border-gray-700">
+        <h3 class="text-lg font-semibold mb-4">Tooltips</h3>
+        <div class="space-x-4">
+            <button class="relative bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 group">
+                Hover me
+                <div class="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-1 bg-gray-900 text-white text-sm rounded opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+                    This is a tooltip
+                    <div class="absolute top-full left-1/2 transform -translate-x-1/2 border-4 border-transparent border-t-gray-900"></div>
+                </div>
+            </button>
+            <button class="relative bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 group">
+                Info button
+                <div class="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-1 bg-gray-900 text-white text-sm rounded opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap">
+                    More information here
+                    <div class="absolute top-full left-1/2 transform -translate-x-1/2 border-4 border-transparent border-t-gray-900"></div>
+                </div>
+            </button>
+        </div>
+    </div>
+</div>

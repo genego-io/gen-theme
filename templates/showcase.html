@@ -1,0 +1,135 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-800 dark:to-purple-800 text-white py-20 transition-colors duration-200">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+        <h1 class="text-5xl font-bold mb-6">TailwindCSS Component Showcase</h1>
+        <p class="text-xl mb-8 max-w-3xl mx-auto">Explore and customize beautiful UI components built with TailwindCSS. Perfect for theming and design system development.</p>
+        <div class="space-x-4">
+            <button class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">Get Started</button>
+            <button class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">Learn More</button>
+        </div>
+    </div>
+</section>
+
+<!-- Typography Section -->
+<section id="typography" class="py-16 bg-gray-50 dark:bg-gray-900 transition-colors duration-200">
+    <div class="max-w-7xl mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-8 text-center text-gray-900 dark:text-gray-100">Typography</h2>
+        {% include 'components/typography.html' %}
+    </div>
+</section>
+
+<!-- Buttons Section -->
+<section id="buttons" class="py-16 bg-white dark:bg-gray-800 transition-colors duration-200">
+    <div class="max-w-7xl mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-8 text-center text-gray-900 dark:text-gray-100">Buttons</h2>
+        {% include 'components/buttons.html' %}
+    </div>
+</section>
+
+<!-- Forms Section -->
+<section id="forms" class="py-16 bg-gray-50 dark:bg-gray-900 transition-colors duration-200">
+    <div class="max-w-7xl mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-8 text-center text-gray-900 dark:text-gray-100">Forms</h2>
+        {% include 'components/forms.html' %}
+    </div>
+</section>
+
+<!-- Cards Section -->
+<section id="cards" class="py-16 bg-white dark:bg-gray-800 transition-colors duration-200">
+    <div class="max-w-7xl mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-8 text-center text-gray-900 dark:text-gray-100">Cards</h2>
+        {% include 'components/cards.html' %}
+    </div>
+</section>
+
+<!-- Navigation Section -->
+<section id="navigation" class="py-16 bg-gray-50 dark:bg-gray-900 transition-colors duration-200">
+    <div class="max-w-7xl mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-8 text-center text-gray-900 dark:text-gray-100">Navigation Components</h2>
+        {% include 'components/navigation.html' %}
+    </div>
+</section>
+
+<!-- Tables Section -->
+<section id="tables" class="py-16 bg-white dark:bg-gray-800 transition-colors duration-200">
+    <div class="max-w-7xl mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-8 text-center text-gray-900 dark:text-gray-100">Tables</h2>
+        {% include 'components/tables.html' %}
+    </div>
+</section>
+
+<!-- Layout Section -->
+<section id="layout" class="py-16 bg-gray-50 dark:bg-gray-900 transition-colors duration-200">
+    <div class="max-w-7xl mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-8 text-center text-gray-900 dark:text-gray-100">Layout Components</h2>
+        {% include 'components/layout.html' %}
+    </div>
+</section>
+
+<!-- Media Section -->
+<section id="media" class="py-16 bg-white dark:bg-gray-800 transition-colors duration-200">
+    <div class="max-w-7xl mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-8 text-center text-gray-900 dark:text-gray-100">Media Components</h2>
+        {% include 'components/media.html' %}
+    </div>
+</section>
+
+<!-- Feedback Section -->
+<section id="feedback" class="py-16 bg-gray-50 dark:bg-gray-900 transition-colors duration-200">
+    <div class="max-w-7xl mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-8 text-center text-gray-900 dark:text-gray-100">Feedback Components</h2>
+        {% include 'components/feedback.html' %}
+    </div>
+</section>
+
+<!-- Backgrounds & Effects Section -->
+<section id="backgrounds" class="py-16 bg-white dark:bg-gray-800 transition-colors duration-200">
+    <div class="max-w-7xl mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-8 text-center text-gray-900 dark:text-gray-100">Backgrounds & Effects</h2>
+        {% include 'components/backgrounds.html' %}
+    </div>
+</section>
+
+<!-- Badges & Labels Section -->
+<section id="badges" class="py-16 bg-white dark:bg-gray-800 transition-colors duration-200">
+    <div class="max-w-7xl mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-8 text-center text-gray-900 dark:text-gray-100">Badges & Labels</h2>
+        {% include 'components/badges.html' %}
+    </div>
+</section>
+
+<!-- Progress & Loading Section -->
+<section id="progress" class="py-16 bg-gray-50 dark:bg-gray-900 transition-colors duration-200">
+    <div class="max-w-7xl mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-8 text-center text-gray-900 dark:text-gray-100">Progress & Loading</h2>
+        {% include 'components/progress.html' %}
+    </div>
+</section>
+
+<!-- Modals & Overlays Section -->
+<section id="modals" class="py-16 bg-white dark:bg-gray-800 transition-colors duration-200">
+    <div class="max-w-7xl mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-8 text-center text-gray-900 dark:text-gray-100">Modals & Overlays</h2>
+        {% include 'components/modals.html' %}
+    </div>
+</section>
+
+<!-- Accordions Section -->
+<section id="accordions" class="py-16 bg-gray-50 dark:bg-gray-900 transition-colors duration-200">
+    <div class="max-w-7xl mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-8 text-center text-gray-900 dark:text-gray-100">Accordions & Collapsibles</h2>
+        {% include 'components/accordions.html' %}
+    </div>
+</section>
+
+<!-- Utilities Section -->
+<section id="utilities" class="py-16 bg-white dark:bg-gray-800 transition-colors duration-200">
+    <div class="max-w-7xl mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-8 text-center text-gray-900 dark:text-gray-100">Utilities</h2>
+        {% include 'components/utilities.html' %}
+    </div>
+</section>
+{% endblock %}

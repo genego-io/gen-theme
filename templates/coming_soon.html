@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Coming Soon Section -->
+<section class="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 transition-colors duration-200">
+    <div class="max-w-2xl mx-auto px-4 text-center">
+        <div class="mb-8">
+            <i class="fas fa-tools text-6xl text-gray-400 dark:text-gray-600 mb-6"></i>
+        </div>
+        <h1 class="text-4xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-gray-100">{{ section }}</h1>
+        <p class="text-xl mb-8 text-gray-600 dark:text-gray-400">This section is currently under development. We're working hard to bring you amazing content!</p>
+        
+        <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-lg border dark:border-gray-700 mb-8">
+            <h3 class="text-lg font-semibold mb-4 text-gray-900 dark:text-gray-100">What's Coming:</h3>
+            <ul class="text-left space-y-2 text-gray-600 dark:text-gray-400">
+                {% if section == 'Interactions & Animations' %}
+                <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Hover effects and micro-interactions</li>
+                <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> CSS animations and keyframes</li>
+                <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> JavaScript-powered interactions</li>
+                <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Loading states and progress indicators</li>
+                {% elif section == 'Transitions & Effects' %}
+                <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Smooth transitions between states</li>
+                <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Advanced CSS effects</li>
+                <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Motion design principles</li>
+                <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Performance-optimized animations</li>
+                {% endif %}
+            </ul>
+        </div>
+        
+        <div class="space-x-4">
+            <a href="/" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
+                Back to Home
+            </a>
+            <a href="/showcase" class="border-2 border-blue-600 text-blue-600 dark:text-blue-400 dark:border-blue-400 px-8 py-3 rounded-lg font-semibold hover:bg-blue-600 hover:text-white dark:hover:bg-blue-400 dark:hover:text-gray-900 transition-colors">
+                View Showcase
+            </a>
+        </div>
+    </div>
+</section>
+{% endblock %}

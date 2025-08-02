@@ -1,0 +1,148 @@
+<!-- Form Examples -->
+<div class="grid md:grid-cols-2 gap-8">
+    <!-- Basic Form -->
+    <div class="bg-white dark:bg-gray-800 transition-colors duration-200 p-6 rounded-lg shadow-sm border dark:border-gray-700">
+        <h3 class="text-lg font-semibold mb-4">Basic Form</h3>
+        <form class="space-y-4">
+            <div>
+                <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Email</label>
+                <input type="email" class="w-full px-3 py-2 border dark:border-gray-700 border-gray-300 dark:border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Enter your email">
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Password</label>
+                <input type="password" class="w-full px-3 py-2 border dark:border-gray-700 border-gray-300 dark:border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Enter your password">
+            </div>
+            <div class="flex items-center">
+                <input type="checkbox" class="h-4 w-4 text-blue-600 dark:text-blue-400 focus:ring-blue-500 border-gray-300 dark:border-gray-600 rounded">
+                <label class="ml-2 block text-sm text-gray-700 dark:text-gray-300">Remember me</label>
+            </div>
+            <button type="submit" class="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition-colors">Sign In</button>
+        </form>
+    </div>
+
+    <!-- Input Variations -->
+    <div class="bg-white dark:bg-gray-800 transition-colors duration-200 p-6 rounded-lg shadow-sm border dark:border-gray-700">
+        <h3 class="text-lg font-semibold mb-4">Input Variations</h3>
+        <div class="space-y-4">
+            <div>
+                <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Regular Input</label>
+                <input type="text" class="w-full px-3 py-2 border dark:border-gray-700 border-gray-300 dark:border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Regular input">
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Large Input</label>
+                <input type="text" class="w-full px-4 py-3 border dark:border-gray-700 border-gray-300 dark:border-gray-600 rounded-lg text-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Large input">
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Small Input</label>
+                <input type="text" class="w-full px-2 py-1 border dark:border-gray-700 border-gray-300 dark:border-gray-600 rounded text-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Small input">
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Input with Icon</label>
+                <div class="relative">
+                    <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                        <i class="fas fa-envelope text-gray-400"></i>
+                    </div>
+                    <input type="email" class="w-full pl-10 pr-3 py-2 border dark:border-gray-700 border-gray-300 dark:border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Email with icon">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Select Dropdown -->
+    <div class="bg-white dark:bg-gray-800 transition-colors duration-200 p-6 rounded-lg shadow-sm border dark:border-gray-700">
+        <h3 class="text-lg font-semibold mb-4">Select Dropdown</h3>
+        <div class="space-y-4">
+            <div>
+                <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Country</label>
+                <select class="w-full px-3 py-2 border dark:border-gray-700 border-gray-300 dark:border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <option>United States</option>
+                    <option>Canada</option>
+                    <option>United Kingdom</option>
+                    <option>Germany</option>
+                    <option>France</option>
+                </select>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Multiple Select</label>
+                <select multiple class="w-full px-3 py-2 border dark:border-gray-700 border-gray-300 dark:border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 h-24">
+                    <option>Option 1</option>
+                    <option>Option 2</option>
+                    <option>Option 3</option>
+                    <option>Option 4</option>
+                    <option>Option 5</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <!-- Textarea -->
+    <div class="bg-white dark:bg-gray-800 transition-colors duration-200 p-6 rounded-lg shadow-sm border dark:border-gray-700">
+        <h3 class="text-lg font-semibold mb-4">Textarea</h3>
+        <div class="space-y-4">
+            <div>
+                <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Message</label>
+                <textarea rows="4" class="w-full px-3 py-2 border dark:border-gray-700 border-gray-300 dark:border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Enter your message..."></textarea>
+            </div>
+        </div>
+    </div>
+
+    <!-- Radio Buttons -->
+    <div class="bg-white dark:bg-gray-800 transition-colors duration-200 p-6 rounded-lg shadow-sm border dark:border-gray-700">
+        <h3 class="text-lg font-semibold mb-4">Radio Buttons</h3>
+        <div class="space-y-2">
+            <div class="flex items-center">
+                <input type="radio" name="option" class="h-4 w-4 text-blue-600 dark:text-blue-400 focus:ring-blue-500 border-gray-300 dark:border-gray-600" checked>
+                <label class="ml-2 block text-sm text-gray-700 dark:text-gray-300">Option 1</label>
+            </div>
+            <div class="flex items-center">
+                <input type="radio" name="option" class="h-4 w-4 text-blue-600 dark:text-blue-400 focus:ring-blue-500 border-gray-300 dark:border-gray-600">
+                <label class="ml-2 block text-sm text-gray-700 dark:text-gray-300">Option 2</label>
+            </div>
+            <div class="flex items-center">
+                <input type="radio" name="option" class="h-4 w-4 text-blue-600 dark:text-blue-400 focus:ring-blue-500 border-gray-300 dark:border-gray-600">
+                <label class="ml-2 block text-sm text-gray-700 dark:text-gray-300">Option 3</label>
+            </div>
+        </div>
+    </div>
+
+    <!-- Checkboxes -->
+    <div class="bg-white dark:bg-gray-800 transition-colors duration-200 p-6 rounded-lg shadow-sm border dark:border-gray-700">
+        <h3 class="text-lg font-semibold mb-4">Checkboxes</h3>
+        <div class="space-y-2">
+            <div class="flex items-center">
+                <input type="checkbox" class="h-4 w-4 text-blue-600 dark:text-blue-400 focus:ring-blue-500 border-gray-300 dark:border-gray-600 rounded" checked>
+                <label class="ml-2 block text-sm text-gray-700 dark:text-gray-300">Checkbox 1</label>
+            </div>
+            <div class="flex items-center">
+                <input type="checkbox" class="h-4 w-4 text-blue-600 dark:text-blue-400 focus:ring-blue-500 border-gray-300 dark:border-gray-600 rounded">
+                <label class="ml-2 block text-sm text-gray-700 dark:text-gray-300">Checkbox 2</label>
+            </div>
+            <div class="flex items-center">
+                <input type="checkbox" class="h-4 w-4 text-blue-600 dark:text-blue-400 focus:ring-blue-500 border-gray-300 dark:border-gray-600 rounded">
+                <label class="ml-2 block text-sm text-gray-700 dark:text-gray-300">Checkbox 3</label>
+            </div>
+        </div>
+    </div>
+
+    <!-- Form Validation -->
+    <div class="bg-white dark:bg-gray-800 transition-colors duration-200 p-6 rounded-lg shadow-sm border dark:border-gray-700 col-span-full">
+        <h3 class="text-lg font-semibold mb-4">Form Validation States</h3>
+        <div class="grid md:grid-cols-3 gap-4">
+            <div>
+                <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Valid Input</label>
+                <input type="text" class="w-full px-3 py-2 border dark:border-gray-700 border-green-500 dark:border-green-400 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500" value="Valid input">
+                <p class="mt-1 text-sm text-green-600 dark:text-green-400">Looks good!</p>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Invalid Input</label>
+                <input type="text" class="w-full px-3 py-2 border dark:border-gray-700 border-red-500 dark:border-red-400 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500" value="Invalid input">
+                <p class="mt-1 text-sm text-red-600 dark:text-red-400">This field is required.</p>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Warning Input</label>
+                <input type="text" class="w-full px-3 py-2 border dark:border-gray-700 border-yellow-500 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500" value="Warning input">
+                <p class="mt-1 text-sm text-yellow-600 dark:text-yellow-400">Please check this field.</p>
+            </div>
+        </div>
+    </div>
+</div>

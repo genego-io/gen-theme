@@ -1,0 +1,252 @@
+<!-- Progress & Loading Examples -->
+<div class="space-y-8">
+    <!-- Progress Bars -->
+    <div class="bg-white dark:bg-gray-800 transition-colors duration-200 p-6 rounded-lg shadow-sm border dark:border-gray-700">
+        <h3 class="text-lg font-semibold mb-4 text-gray-900 dark:text-gray-100">Progress Bars</h3>
+        <div class="space-y-4">
+            <!-- Basic Progress -->
+            <div>
+                <div class="flex justify-between text-sm text-gray-600 dark:text-gray-400 mb-1">
+                    <span>Progress</span>
+                    <span>45%</span>
+                </div>
+                <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
+                    <div class="bg-blue-600 h-2 rounded-full" style="width: 45%"></div>
+                </div>
+            </div>
+            
+            <!-- Success Progress -->
+            <div>
+                <div class="flex justify-between text-sm text-gray-600 dark:text-gray-400 mb-1">
+                    <span>Completed</span>
+                    <span>100%</span>
+                </div>
+                <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
+                    <div class="bg-green-600 h-2 rounded-full" style="width: 100%"></div>
+                </div>
+            </div>
+            
+            <!-- Warning Progress -->
+            <div>
+                <div class="flex justify-between text-sm text-gray-600 dark:text-gray-400 mb-1">
+                    <span>Storage Used</span>
+                    <span>85%</span>
+                </div>
+                <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
+                    <div class="bg-yellow-600 h-2 rounded-full" style="width: 85%"></div>
+                </div>
+            </div>
+            
+            <!-- Danger Progress -->
+            <div>
+                <div class="flex justify-between text-sm text-gray-600 dark:text-gray-400 mb-1">
+                    <span>Error Rate</span>
+                    <span>92%</span>
+                </div>
+                <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
+                    <div class="bg-red-600 h-2 rounded-full" style="width: 92%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Progress Bar Sizes -->
+    <div class="bg-white dark:bg-gray-800 transition-colors duration-200 p-6 rounded-lg shadow-sm border dark:border-gray-700">
+        <h3 class="text-lg font-semibold mb-4 text-gray-900 dark:text-gray-100">Progress Bar Sizes</h3>
+        <div class="space-y-4">
+            <!-- Small -->
+            <div>
+                <div class="text-sm text-gray-600 dark:text-gray-400 mb-1">Small (1px)</div>
+                <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-1">
+                    <div class="bg-blue-600 h-1 rounded-full" style="width: 60%"></div>
+                </div>
+            </div>
+            
+            <!-- Medium -->
+            <div>
+                <div class="text-sm text-gray-600 dark:text-gray-400 mb-1">Medium (2px)</div>
+                <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
+                    <div class="bg-blue-600 h-2 rounded-full" style="width: 60%"></div>
+                </div>
+            </div>
+            
+            <!-- Large -->
+            <div>
+                <div class="text-sm text-gray-600 dark:text-gray-400 mb-1">Large (4px)</div>
+                <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-4">
+                    <div class="bg-blue-600 h-4 rounded-full flex items-center justify-end pr-2" style="width: 60%">
+                        <span class="text-xs text-white font-medium">60%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Spinners -->
+    <div class="bg-white dark:bg-gray-800 transition-colors duration-200 p-6 rounded-lg shadow-sm border dark:border-gray-700">
+        <h3 class="text-lg font-semibold mb-4 text-gray-900 dark:text-gray-100">Loading Spinners</h3>
+        <div class="flex flex-wrap items-center gap-8">
+            <!-- Standard Spinner -->
+            <div class="flex flex-col items-center gap-2">
+                <div class="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600"></div>
+                <span class="text-xs text-gray-600 dark:text-gray-400">Standard</span>
+            </div>
+            
+            <!-- Bordered Spinner -->
+            <div class="flex flex-col items-center gap-2">
+                <div class="animate-spin rounded-full h-8 w-8 border-2 border-gray-300 dark:border-gray-600 border-t-blue-600"></div>
+                <span class="text-xs text-gray-600 dark:text-gray-400">Bordered</span>
+            </div>
+            
+            <!-- Dots Spinner -->
+            <div class="flex flex-col items-center gap-2">
+                <div class="flex space-x-1">
+                    <div class="w-2 h-2 bg-blue-600 rounded-full animate-bounce"></div>
+                    <div class="w-2 h-2 bg-blue-600 rounded-full animate-bounce" style="animation-delay: 0.1s"></div>
+                    <div class="w-2 h-2 bg-blue-600 rounded-full animate-bounce" style="animation-delay: 0.2s"></div>
+                </div>
+                <span class="text-xs text-gray-600 dark:text-gray-400">Dots</span>
+            </div>
+            
+            <!-- Pulse Spinner -->
+            <div class="flex flex-col items-center gap-2">
+                <div class="w-8 h-8 bg-blue-600 rounded-full animate-pulse"></div>
+                <span class="text-xs text-gray-600 dark:text-gray-400">Pulse</span>
+            </div>
+            
+            <!-- Ping Spinner -->
+            <div class="flex flex-col items-center gap-2">
+                <div class="relative w-8 h-8">
+                    <div class="absolute w-8 h-8 bg-blue-400 rounded-full animate-ping"></div>
+                    <div class="relative w-8 h-8 bg-blue-600 rounded-full"></div>
+                </div>
+                <span class="text-xs text-gray-600 dark:text-gray-400">Ping</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading States -->
+    <div class="bg-white dark:bg-gray-800 transition-colors duration-200 p-6 rounded-lg shadow-sm border dark:border-gray-700">
+        <h3 class="text-lg font-semibold mb-4 text-gray-900 dark:text-gray-100">Loading States</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- Loading Button -->
+            <div>
+                <h4 class="text-sm font-medium text-gray-900 dark:text-gray-100 mb-2">Loading Button</h4>
+                <button class="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg font-medium" disabled>
+                    <div class="animate-spin rounded-full h-4 w-4 border-b-2 border-white mr-2"></div>
+                    Loading...
+                </button>
+            </div>
+            
+            <!-- Loading Card -->
+            <div>
+                <h4 class="text-sm font-medium text-gray-900 dark:text-gray-100 mb-2">Loading Card</h4>
+                <div class="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
+                    <div class="flex items-center justify-center h-20">
+                        <div class="animate-spin rounded-full h-6 w-6 border-b-2 border-blue-600"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skeleton Loaders -->
+    <div class="bg-white dark:bg-gray-800 transition-colors duration-200 p-6 rounded-lg shadow-sm border dark:border-gray-700">
+        <h3 class="text-lg font-semibold mb-4 text-gray-900 dark:text-gray-100">Skeleton Loaders</h3>
+        <div class="space-y-6">
+            <!-- Text Skeleton -->
+            <div>
+                <h4 class="text-sm font-medium text-gray-900 dark:text-gray-100 mb-2">Text Skeleton</h4>
+                <div class="space-y-2">
+                    <div class="h-4 bg-gray-200 dark:bg-gray-700 rounded animate-pulse"></div>
+                    <div class="h-4 bg-gray-200 dark:bg-gray-700 rounded animate-pulse w-5/6"></div>
+                    <div class="h-4 bg-gray-200 dark:bg-gray-700 rounded animate-pulse w-4/6"></div>
+                </div>
+            </div>
+            
+            <!-- Card Skeleton -->
+            <div>
+                <h4 class="text-sm font-medium text-gray-900 dark:text-gray-100 mb-2">Card Skeleton</h4>
+                <div class="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
+                    <div class="animate-pulse">
+                        <div class="h-32 bg-gray-200 dark:bg-gray-600 rounded mb-4"></div>
+                        <div class="h-4 bg-gray-200 dark:bg-gray-600 rounded mb-2"></div>
+                        <div class="h-4 bg-gray-200 dark:bg-gray-600 rounded w-2/3"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Profile Skeleton -->
+            <div>
+                <h4 class="text-sm font-medium text-gray-900 dark:text-gray-100 mb-2">Profile Skeleton</h4>
+                <div class="flex items-center space-x-4">
+                    <div class="animate-pulse">
+                        <div class="h-12 w-12 bg-gray-200 dark:bg-gray-700 rounded-full"></div>
+                    </div>
+                    <div class="flex-1 animate-pulse">
+                        <div class="h-4 bg-gray-200 dark:bg-gray-700 rounded mb-2"></div>
+                        <div class="h-3 bg-gray-200 dark:bg-gray-700 rounded w-1/2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Step Progress -->
+    <div class="bg-white dark:bg-gray-800 transition-colors duration-200 p-6 rounded-lg shadow-sm border dark:border-gray-700">
+        <h3 class="text-lg font-semibold mb-4 text-gray-900 dark:text-gray-100">Step Progress Indicators</h3>
+        <div class="space-y-6">
+            <!-- Horizontal Steps -->
+            <div>
+                <h4 class="text-sm font-medium text-gray-900 dark:text-gray-100 mb-4">Horizontal Steps</h4>
+                <div class="flex items-center">
+                    <!-- Step 1 - Completed -->
+                    <div class="flex items-center">
+                        <div class="flex items-center justify-center w-8 h-8 bg-green-600 rounded-full text-white text-sm font-medium">
+                            <i class="fas fa-check"></i>
+                        </div>
+                        <span class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-100">Account</span>
+                    </div>
+                    
+                    <!-- Connector -->
+                    <div class="flex-1 h-1 bg-green-600 mx-4"></div>
+                    
+                    <!-- Step 2 - Current -->
+                    <div class="flex items-center">
+                        <div class="flex items-center justify-center w-8 h-8 bg-blue-600 rounded-full text-white text-sm font-medium">
+                            2
+                        </div>
+                        <span class="ml-2 text-sm font-medium text-blue-600 dark:text-blue-400">Profile</span>
+                    </div>
+                    
+                    <!-- Connector -->
+                    <div class="flex-1 h-1 bg-gray-300 dark:bg-gray-600 mx-4"></div>
+                    
+                    <!-- Step 3 - Pending -->
+                    <div class="flex items-center">
+                        <div class="flex items-center justify-center w-8 h-8 bg-gray-300 dark:bg-gray-600 rounded-full text-gray-600 dark:text-gray-400 text-sm font-medium">
+                            3
+                        </div>
+                        <span class="ml-2 text-sm font-medium text-gray-500 dark:text-gray-400">Complete</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Circular Progress -->
+            <div>
+                <h4 class="text-sm font-medium text-gray-900 dark:text-gray-100 mb-4">Circular Progress</h4>
+                <div class="flex items-center justify-center">
+                    <div class="relative w-24 h-24">
+                        <svg class="w-24 h-24 transform -rotate-90" viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="40" stroke="currentColor" stroke-width="8" fill="transparent" class="text-gray-200 dark:text-gray-700"/>
+                            <circle cx="50" cy="50" r="40" stroke="currentColor" stroke-width="8" fill="transparent" stroke-dasharray="251.2" stroke-dashoffset="75.36" class="text-blue-600 transition-all duration-300"/>
+                        </svg>
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <span class="text-xl font-semibold text-gray-900 dark:text-gray-100">70%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

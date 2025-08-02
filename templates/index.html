@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="min-h-screen bg-white dark:bg-gray-900 flex items-center justify-center px-4">
+    <div class="max-w-2xl mx-auto text-center">
+        <!-- Logo/Icon -->
+        <div class="w-16 h-16 bg-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-8">
+            <i class="fas fa-palette text-white text-2xl"></i>
+        </div>
+        
+        <!-- Title -->
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
+            TailwindCSS
+        </h1>
+        <p class="text-xl text-gray-600 dark:text-gray-400 mb-12">
+            Component Showcase
+        </p>
+        
+        <!-- Navigation Cards -->
+        <div class="space-y-4 mb-12">
+            <a href="/showcase" class="block w-full p-6 bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-xl transition-colors group">
+                <div class="flex items-center justify-between">
+                    <div class="text-left">
+                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Showcase</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Browse all components</p>
+                    </div>
+                    <i class="fas fa-arrow-right text-gray-400 group-hover:text-gray-600 dark:group-hover:text-gray-300 transition-colors"></i>
+                </div>
+            </a>
+            
+            <div class="block w-full p-6 bg-gray-50 dark:bg-gray-800 rounded-xl opacity-50 cursor-not-allowed">
+                <div class="flex items-center justify-between">
+                    <div class="text-left">
+                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Interactions</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Coming soon</p>
+                    </div>
+                    <i class="fas fa-lock text-gray-400"></i>
+                </div>
+            </div>
+            
+            <div class="block w-full p-6 bg-gray-50 dark:bg-gray-800 rounded-xl opacity-50 cursor-not-allowed">
+                <div class="flex items-center justify-between">
+                    <div class="text-left">
+                        <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Transitions</h3>
+                        <p class="text-sm text-gray-600 dark:text-gray-400">Coming soon</p>
+                    </div>
+                    <i class="fas fa-lock text-gray-400"></i>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer Text -->
+        <p class="text-sm text-gray-500 dark:text-gray-400">
+            Built with Flask & TailwindCSS
+        </p>
+    </div>
+</div>
+{% endblock %}
